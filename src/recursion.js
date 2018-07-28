@@ -84,14 +84,11 @@ var exponent = function(base, exp) {
 // base case
 if( exp === 0){
   return 1;
-}else if(expo < 0){
-  return 1 / expmonent(base, -exp);
+}else if(exp < 0){
+  return 1 / exponent(base, -exp);
 }
   return base * exponent(base, exp -1)
 };
-
-
-
 
 // 8. Determine if a number is a power of two.
 // powerOfTwo(1); // true
