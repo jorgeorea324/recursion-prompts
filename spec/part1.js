@@ -21,7 +21,7 @@
         factorial = originalFactorial;
       });
 
-      it('should return a number', function() {
+      it('shoul[d return a number', function() {
         expect(factorial(5)).to.be.a('number');
       });
 
